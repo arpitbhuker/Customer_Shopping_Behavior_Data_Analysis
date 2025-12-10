@@ -63,7 +63,7 @@ The workflow follows a straight-line, minimal-friction design inspired by the st
 ---
 
 ## 📂 Project Structure
-
+```bash
 Customer-Behavior-Analysis/
 │
 ├── notebooks/
@@ -79,13 +79,13 @@ Customer-Behavior-Analysis/
 │ └── dashboard.png # (Add your dashboard export)
 │
 └── README.md
-
+```
 
 ---
 
 # 🔍 Step-by-Step Workflow
 
-## 1️⃣ Python: Exploratory Data Analysis
+### 1️⃣ Python: Exploratory Data Analysis
 
 The analysis starts in the Jupyter notebook:
 
@@ -101,7 +101,7 @@ Run the notebook:
 jupyter notebook notebooks/Customer_Shopping_Behavior_Analysis.ipynb
 ```
 
-## 2️⃣ MySQL: Business Analysis Queries
+### 2️⃣ MySQL: Business Analysis Queries
 
 The SQL layer validates insights discovered in Python and computes business-critical metrics.
 
@@ -122,7 +122,7 @@ Examples of questions answered via SQL:
 - Customer segmentation using previous purchases
 
 
-## 3️⃣ Power BI: Interactive Dashboard
+### 3️⃣ Power BI: Interactive Dashboard
 
 Power BI brings the insights to life using:
 
@@ -176,7 +176,7 @@ These insights form the backbone of the Power BI story.
 
 - mysql-connector-python
 
-- Install using:
+Install using:
 ```bash
 pip install -r requirements.txt
 ```
